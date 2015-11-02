@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DQSlider.h
 //  MusicPlayer
 //
 //  Created by 强 on 15/10/30.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface DQSlider : UISlider
 
 @end
-

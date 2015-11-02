@@ -7,13 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F7BC26711BE3619C009A7558 /* DQLyrcisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7BC26701BE3619C009A7558 /* DQLyrcisViewController.m */; };
+		F7C227A31BE6116300D6DBD3 /* DQLyrcisCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C227A21BE6116300D6DBD3 /* DQLyrcisCell.m */; };
 		F7E6FB501BE30762007976B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E6FB4F1BE30762007976B2 /* main.m */; };
 		F7E6FB531BE30762007976B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E6FB521BE30762007976B2 /* AppDelegate.m */; };
-		F7E6FB561BE30762007976B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E6FB551BE30762007976B2 /* ViewController.m */; };
-		F7E6FB591BE30762007976B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7E6FB571BE30762007976B2 /* Main.storyboard */; };
 		F7E6FB5B1BE30762007976B2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7E6FB5A1BE30762007976B2 /* Images.xcassets */; };
 		F7E6FB5E1BE30762007976B2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7E6FB5C1BE30762007976B2 /* LaunchScreen.xib */; };
 		F7E6FB6A1BE30763007976B2 /* MusicPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E6FB691BE30763007976B2 /* MusicPlayerTests.m */; };
+		F7E6FB751BE30832007976B2 /* DQHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E6FB741BE30832007976B2 /* DQHomeViewController.m */; };
+		F7E6FB781BE308B1007976B2 /* DQSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E6FB771BE308B1007976B2 /* DQSlider.m */; };
+		F7E6FB8E1BE31570007976B2 /* aboveMusic.png in Resources */ = {isa = PBXBuildFile; fileRef = F7E6FB7A1BE31570007976B2 /* aboveMusic.png */; };
+		F7E6FB8F1BE31570007976B2 /* backgroundImage5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F7E6FB7B1BE31570007976B2 /* backgroundImage5.jpg */; };
+		F7E6FB901BE31570007976B2 /* circleClose.png in Resources */ = {isa = PBXBuildFile; fileRef = F7E6FB7C1BE31570007976B2 /* circleClose.png */; };
+		F7E6FB911BE31570007976B2 /* circleOpen.png in Resources */ = {isa = PBXBuildFile; fileRef = F7E6FB7D1BE31570007976B2 /* circleOpen.png */; };
+		F7E6FB921BE31570007976B2 /* homePage_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7E6FB7E1BE31570007976B2 /* homePage_default@2x.png */; };
+		F7E6FB931BE31570007976B2 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = F7E6FB7F1BE31570007976B2 /* menu.png */; };
+		F7E6FB941BE31570007976B2 /* nextMusic.png in Resources */ = {isa = PBXBuildFile; fileRef = F7E6FB801BE31570007976B2 /* nextMusic.png */; };
+		F7E6FB951BE31570007976B2 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = F7E6FB811BE31570007976B2 /* pause.png */; };
+		F7E6FB961BE31570007976B2 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = F7E6FB821BE31570007976B2 /* play.png */; };
+		F7E6FB971BE31570007976B2 /* randomClose.png in Resources */ = {isa = PBXBuildFile; fileRef = F7E6FB831BE31570007976B2 /* randomClose.png */; };
+		F7E6FB981BE31570007976B2 /* randomOpen.png in Resources */ = {isa = PBXBuildFile; fileRef = F7E6FB841BE31570007976B2 /* randomOpen.png */; };
+		F7E6FB991BE31570007976B2 /* sliderThumb_small.png in Resources */ = {isa = PBXBuildFile; fileRef = F7E6FB851BE31570007976B2 /* sliderThumb_small.png */; };
+		F7E6FB9A1BE31570007976B2 /* soundSlider.png in Resources */ = {isa = PBXBuildFile; fileRef = F7E6FB861BE31570007976B2 /* soundSlider.png */; };
+		F7E6FB9B1BE31570007976B2 /* 不再犹豫.lrc in Resources */ = {isa = PBXBuildFile; fileRef = F7E6FB881BE31570007976B2 /* 不再犹豫.lrc */; };
+		F7E6FB9C1BE31570007976B2 /* 不再犹豫.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F7E6FB891BE31570007976B2 /* 不再犹豫.mp3 */; };
+		F7E6FB9D1BE31570007976B2 /* 喜欢你.lrc in Resources */ = {isa = PBXBuildFile; fileRef = F7E6FB8A1BE31570007976B2 /* 喜欢你.lrc */; };
+		F7E6FB9E1BE31570007976B2 /* 喜欢你.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F7E6FB8B1BE31570007976B2 /* 喜欢你.mp3 */; };
+		F7E6FB9F1BE31570007976B2 /* 海阔天空.lrc in Resources */ = {isa = PBXBuildFile; fileRef = F7E6FB8C1BE31570007976B2 /* 海阔天空.lrc */; };
+		F7E6FBA01BE31570007976B2 /* 海阔天空.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F7E6FB8D1BE31570007976B2 /* 海阔天空.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +48,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F7BC266F1BE3619C009A7558 /* DQLyrcisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQLyrcisViewController.h; sourceTree = "<group>"; };
+		F7BC26701BE3619C009A7558 /* DQLyrcisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQLyrcisViewController.m; sourceTree = "<group>"; };
+		F7C227A11BE6116300D6DBD3 /* DQLyrcisCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DQLyrcisCell.h; path = ../DQLyrcisCell.h; sourceTree = "<group>"; };
+		F7C227A21BE6116300D6DBD3 /* DQLyrcisCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DQLyrcisCell.m; path = ../DQLyrcisCell.m; sourceTree = "<group>"; };
 		F7E6FB4A1BE30762007976B2 /* MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7E6FB4E1BE30762007976B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7E6FB4F1BE30762007976B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F7E6FB511BE30762007976B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F7E6FB521BE30762007976B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F7E6FB541BE30762007976B2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F7E6FB551BE30762007976B2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		F7E6FB581BE30762007976B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F7E6FB5A1BE30762007976B2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F7E6FB5D1BE30762007976B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F7E6FB631BE30763007976B2 /* MusicPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7E6FB681BE30763007976B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7E6FB691BE30763007976B2 /* MusicPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicPlayerTests.m; sourceTree = "<group>"; };
+		F7E6FB731BE30832007976B2 /* DQHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQHomeViewController.h; sourceTree = "<group>"; };
+		F7E6FB741BE30832007976B2 /* DQHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQHomeViewController.m; sourceTree = "<group>"; };
+		F7E6FB761BE308B1007976B2 /* DQSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQSlider.h; sourceTree = "<group>"; };
+		F7E6FB771BE308B1007976B2 /* DQSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQSlider.m; sourceTree = "<group>"; };
+		F7E6FB7A1BE31570007976B2 /* aboveMusic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aboveMusic.png; sourceTree = "<group>"; };
+		F7E6FB7B1BE31570007976B2 /* backgroundImage5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroundImage5.jpg; sourceTree = "<group>"; };
+		F7E6FB7C1BE31570007976B2 /* circleClose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circleClose.png; sourceTree = "<group>"; };
+		F7E6FB7D1BE31570007976B2 /* circleOpen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circleOpen.png; sourceTree = "<group>"; };
+		F7E6FB7E1BE31570007976B2 /* homePage_default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "homePage_default@2x.png"; sourceTree = "<group>"; };
+		F7E6FB7F1BE31570007976B2 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		F7E6FB801BE31570007976B2 /* nextMusic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nextMusic.png; sourceTree = "<group>"; };
+		F7E6FB811BE31570007976B2 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		F7E6FB821BE31570007976B2 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		F7E6FB831BE31570007976B2 /* randomClose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = randomClose.png; sourceTree = "<group>"; };
+		F7E6FB841BE31570007976B2 /* randomOpen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = randomOpen.png; sourceTree = "<group>"; };
+		F7E6FB851BE31570007976B2 /* sliderThumb_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sliderThumb_small.png; sourceTree = "<group>"; };
+		F7E6FB861BE31570007976B2 /* soundSlider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = soundSlider.png; sourceTree = "<group>"; };
+		F7E6FB881BE31570007976B2 /* 不再犹豫.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "不再犹豫.lrc"; sourceTree = "<group>"; };
+		F7E6FB891BE31570007976B2 /* 不再犹豫.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "不再犹豫.mp3"; sourceTree = "<group>"; };
+		F7E6FB8A1BE31570007976B2 /* 喜欢你.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "喜欢你.lrc"; sourceTree = "<group>"; };
+		F7E6FB8B1BE31570007976B2 /* 喜欢你.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "喜欢你.mp3"; sourceTree = "<group>"; };
+		F7E6FB8C1BE31570007976B2 /* 海阔天空.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "海阔天空.lrc"; sourceTree = "<group>"; };
+		F7E6FB8D1BE31570007976B2 /* 海阔天空.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "海阔天空.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +128,14 @@
 			children = (
 				F7E6FB511BE30762007976B2 /* AppDelegate.h */,
 				F7E6FB521BE30762007976B2 /* AppDelegate.m */,
-				F7E6FB541BE30762007976B2 /* ViewController.h */,
-				F7E6FB551BE30762007976B2 /* ViewController.m */,
-				F7E6FB571BE30762007976B2 /* Main.storyboard */,
+				F7E6FB731BE30832007976B2 /* DQHomeViewController.h */,
+				F7E6FB741BE30832007976B2 /* DQHomeViewController.m */,
+				F7E6FB761BE308B1007976B2 /* DQSlider.h */,
+				F7E6FB771BE308B1007976B2 /* DQSlider.m */,
+				F7C227A11BE6116300D6DBD3 /* DQLyrcisCell.h */,
+				F7C227A21BE6116300D6DBD3 /* DQLyrcisCell.m */,
+				F7BC266F1BE3619C009A7558 /* DQLyrcisViewController.h */,
+				F7BC26701BE3619C009A7558 /* DQLyrcisViewController.m */,
 				F7E6FB5A1BE30762007976B2 /* Images.xcassets */,
 				F7E6FB5C1BE30762007976B2 /* LaunchScreen.xib */,
 				F7E6FB4D1BE30762007976B2 /* Supporting Files */,
@@ -96,6 +146,8 @@
 		F7E6FB4D1BE30762007976B2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F7E6FB791BE31570007976B2 /* image */,
+				F7E6FB871BE31570007976B2 /* Songs */,
 				F7E6FB4E1BE30762007976B2 /* Info.plist */,
 				F7E6FB4F1BE30762007976B2 /* main.m */,
 			);
@@ -117,6 +169,39 @@
 				F7E6FB681BE30763007976B2 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7E6FB791BE31570007976B2 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				F7E6FB7A1BE31570007976B2 /* aboveMusic.png */,
+				F7E6FB7B1BE31570007976B2 /* backgroundImage5.jpg */,
+				F7E6FB7C1BE31570007976B2 /* circleClose.png */,
+				F7E6FB7D1BE31570007976B2 /* circleOpen.png */,
+				F7E6FB7E1BE31570007976B2 /* homePage_default@2x.png */,
+				F7E6FB7F1BE31570007976B2 /* menu.png */,
+				F7E6FB801BE31570007976B2 /* nextMusic.png */,
+				F7E6FB811BE31570007976B2 /* pause.png */,
+				F7E6FB821BE31570007976B2 /* play.png */,
+				F7E6FB831BE31570007976B2 /* randomClose.png */,
+				F7E6FB841BE31570007976B2 /* randomOpen.png */,
+				F7E6FB851BE31570007976B2 /* sliderThumb_small.png */,
+				F7E6FB861BE31570007976B2 /* soundSlider.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		F7E6FB871BE31570007976B2 /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				F7E6FB881BE31570007976B2 /* 不再犹豫.lrc */,
+				F7E6FB891BE31570007976B2 /* 不再犹豫.mp3 */,
+				F7E6FB8A1BE31570007976B2 /* 喜欢你.lrc */,
+				F7E6FB8B1BE31570007976B2 /* 喜欢你.mp3 */,
+				F7E6FB8C1BE31570007976B2 /* 海阔天空.lrc */,
+				F7E6FB8D1BE31570007976B2 /* 海阔天空.mp3 */,
+			);
+			path = Songs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +284,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7E6FB591BE30762007976B2 /* Main.storyboard in Resources */,
+				F7E6FB9D1BE31570007976B2 /* 喜欢你.lrc in Resources */,
+				F7E6FB931BE31570007976B2 /* menu.png in Resources */,
+				F7E6FB941BE31570007976B2 /* nextMusic.png in Resources */,
+				F7E6FB951BE31570007976B2 /* pause.png in Resources */,
+				F7E6FB9E1BE31570007976B2 /* 喜欢你.mp3 in Resources */,
+				F7E6FB8E1BE31570007976B2 /* aboveMusic.png in Resources */,
+				F7E6FB9A1BE31570007976B2 /* soundSlider.png in Resources */,
+				F7E6FB9B1BE31570007976B2 /* 不再犹豫.lrc in Resources */,
+				F7E6FB921BE31570007976B2 /* homePage_default@2x.png in Resources */,
+				F7E6FB9F1BE31570007976B2 /* 海阔天空.lrc in Resources */,
+				F7E6FB971BE31570007976B2 /* randomClose.png in Resources */,
+				F7E6FB901BE31570007976B2 /* circleClose.png in Resources */,
+				F7E6FB991BE31570007976B2 /* sliderThumb_small.png in Resources */,
 				F7E6FB5E1BE30762007976B2 /* LaunchScreen.xib in Resources */,
+				F7E6FB961BE31570007976B2 /* play.png in Resources */,
+				F7E6FB9C1BE31570007976B2 /* 不再犹豫.mp3 in Resources */,
+				F7E6FB981BE31570007976B2 /* randomOpen.png in Resources */,
+				F7E6FB911BE31570007976B2 /* circleOpen.png in Resources */,
 				F7E6FB5B1BE30762007976B2 /* Images.xcassets in Resources */,
+				F7E6FB8F1BE31570007976B2 /* backgroundImage5.jpg in Resources */,
+				F7E6FBA01BE31570007976B2 /* 海阔天空.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,7 +322,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7E6FB561BE30762007976B2 /* ViewController.m in Sources */,
+				F7BC26711BE3619C009A7558 /* DQLyrcisViewController.m in Sources */,
+				F7E6FB751BE30832007976B2 /* DQHomeViewController.m in Sources */,
+				F7C227A31BE6116300D6DBD3 /* DQLyrcisCell.m in Sources */,
+				F7E6FB781BE308B1007976B2 /* DQSlider.m in Sources */,
 				F7E6FB531BE30762007976B2 /* AppDelegate.m in Sources */,
 				F7E6FB501BE30762007976B2 /* main.m in Sources */,
 			);
@@ -244,14 +350,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F7E6FB571BE30762007976B2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F7E6FB581BE30762007976B2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F7E6FB5C1BE30762007976B2 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -416,6 +514,7 @@
 				F7E6FB6F1BE30763007976B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F7E6FB701BE30763007976B2 /* Build configuration list for PBXNativeTarget "MusicPlayerTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +523,7 @@
 				F7E6FB721BE30763007976B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
