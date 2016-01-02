@@ -11,7 +11,7 @@
 #define HEIGHT     [UIScreen mainScreen].bounds.size.height
 
 
-@interface DQLyrcisCell : UITableViewCell
+@interface DQLyrcisCell : UITableViewCellB
 
 @property (nonatomic, strong) CALayer *bottomLayer;
 @property (nonatomic, strong) CALayer *topLayer;
